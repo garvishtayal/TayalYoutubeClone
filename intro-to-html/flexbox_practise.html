@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            flex_practise
+        </title>
+
+        <style>
+            .home {
+                color: white;
+                margin-right: 70px;
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }
+
+            .download-button {
+                background-color: rgb(136, 94, 183);
+                color: white;
+                border-width: 1px;
+                border-style: solid;
+                border-color: white;
+                padding: 3px 12px;
+                padding-bottom: 5px;
+                cursor: pointer;
+            }
+            .search-bar {
+                
+                width: 100%;
+                border-radius: 200px;
+                height: 30px;
+                border: none;
+                padding-left: 20px;
+                padding-bottom: 4px;
+                outline: none;
+
+            }
+            .button-font {
+                font-size: 17px;
+            }
+            input::placeholder {
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            height: 55px;
+            background-color: rgb(136, 94, 183);
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 10px;
+            margin-left: 7px;
+            margin-top: 7px;
+            margin-right: 7px;
+            
+        ">
+            <div class="home">Home</div>
+            <div style="flex: 1; max-width: 600px;"><input class="search-bar" type="text" placeholder="Search"> </div>
+            <div style="margin-left: 60px;"><button class="download-button"><span class="button-font">Download</span></button></div>
+            
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .profile_image, .description, .follow_button {
+                display: inline-block;
+            }
+            .description {
+                width: 80px;
+            }
+            .follow_page {
+                width: 500px;
+                position: relative;
+            }
+
+            .button {
+                right: 0px;
+                bottom: 18px;
+                position:absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(21, 101, 230);
+                border-width: 1px;
+                border-color: rgb(21, 101, 230);
+                border-radius: 5px;
+                padding: 7px 15px;
+                color: white;
+                font-size: 19px;
+                transition: background-color 0.15s, color 0.15s;
+
+
+            }
+
+            .button:hover {
+                color: rgb(21, 101, 230);
+                background-color: white;
+            }
+            .button:active {
+                background-color: rgb(21, 101, 230);
+                color: white;
+            }
+            .profile {
+                object-fit: cover;
+                height: 70px;
+                width: 70px;
+                border-radius: 200px;
+                margin-top: 15px;
+            }
+            .description{
+                margin-left: 10px;
+            }
+            .name {
+                font-size: 22px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .tag {
+                font-size: 19px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: grey;
+            }
+
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="follow_page">
+            <div class="profile_image">
+                <img class="profile"
+                src="elon.jpg">
+            </div>
+            <div class="description">
+                <p class="name">
+                    oliver
+                </p>
+                <p class="tag">
+                    the cat popular
+                </p>
+            </div>
+            <div class="follow_button">
+                <a href="https://twitter.com/i/flow/login">
+                    <button class ="button">
+                        Follow
+                    </button>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
+
+
